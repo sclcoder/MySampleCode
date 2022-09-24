@@ -12,7 +12,7 @@
 //| ----------------------------------------------------------------------------
 - (void)perform
 {
-    UIViewController *sourceViewController = self.destinationViewController;
+    UIViewController *sourceViewController = self.sourceViewController;
     UIViewController *destinationViewController = self.destinationViewController;
     
     // For presentations which will use a custom presentation controller,
